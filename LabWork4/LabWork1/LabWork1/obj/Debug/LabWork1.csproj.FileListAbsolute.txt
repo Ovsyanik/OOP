@@ -1,0 +1,9 @@
+C:\OOP\LabWork1\LabWork1\LabWork1\bin\Debug\LabWork1.exe.config
+C:\OOP\LabWork1\LabWork1\LabWork1\bin\Debug\LabWork1.exe
+C:\OOP\LabWork1\LabWork1\LabWork1\bin\Debug\LabWork1.pdb
+C:\OOP\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.csprojAssemblyReference.cache
+C:\OOP\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.Form1.resources
+C:\OOP\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.Properties.Resources.resources
+C:\OOP\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.csproj.GenerateResource.cache
+C:\OOP\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.exe
+C:\OOP\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.pdb
