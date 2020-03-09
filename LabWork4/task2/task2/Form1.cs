@@ -36,7 +36,7 @@ namespace task2
             }
             catch
             {
-
+                SizeCollection = 0;
             }
         }
 
@@ -46,19 +46,18 @@ namespace task2
         {
             textBox3.Clear();
             vs.Clear();
-
-            if (SizeCollection != 0)
+            try
             {
-                for (int i = 0; i < SizeCollection; i++)
-                {
-                    vs.Add(rand.Next(-50, 50));
-                }
+                    for (int i = 0; i < SizeCollection; i++)
+                    {
+                        vs.Add(rand.Next(-50, 50));
+                    }
             }
-            else
+            catch(Exception m)
             {
-                MessageBox.Show("Размер коллекции не может быть равен нулю!!!");
+                MessageBox.Show(m.Message);
+                vs.Clear();
             }
-
             foreach (var item in vs)
             {
                 textBox3.Text += " число = "
@@ -69,31 +68,60 @@ namespace task2
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int minElInVs = vs.Min();
-            
-            textBox2.Text = "минимальное число коллекции = "
-                + minElInVs.ToString() + Environment.NewLine;
+            try
+            {
+                int minElInVs = vs.Min();
+
+                textBox2.Text = "минимальное число коллекции = "
+                    + minElInVs.ToString() + Environment.NewLine;
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            sort.SortCollection((Button)sender, vs, textBox2);
+            try
+            {
+                sort.SortCollection((Button)sender, vs, textBox2);
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int maxElInVs = vs.Max();
+            try
+            {
+                int maxElInVs = vs.Max();
 
-            textBox2.Text = "максимальное число коллекции = "
-                + maxElInVs.ToString() + Environment.NewLine;
+                textBox2.Text = "максимальное число коллекции = "
+                    + maxElInVs.ToString() + Environment.NewLine;
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            double aveElInVs = vs.Average();
+            try
+            {
+                double aveElInVs = vs.Average();
 
-            textBox2.Text = "среднее значение коллекции = "
-                + aveElInVs.ToString() + Environment.NewLine;
+                textBox2.Text = "среднее значение коллекции = "
+                    + aveElInVs.ToString() + Environment.NewLine;
+
+            }
+            catch(Exception ex)
+            {
+               
+            }
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

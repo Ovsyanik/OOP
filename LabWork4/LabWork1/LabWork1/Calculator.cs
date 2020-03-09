@@ -35,9 +35,9 @@ namespace LabWork1
         /// <summary>
         /// Возвращает деление 2 чисел
         /// </summary>
-        public long Division(long number1, long number2)
+        public float Division(long number1, long number2)
         {
-            return number1 / number2;
+            return (float)(number1 / number2);
         }
 
         /// <summary>

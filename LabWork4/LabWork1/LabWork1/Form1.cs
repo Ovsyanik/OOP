@@ -98,37 +98,61 @@ namespace LabWork1
         //=
         private void button16_Click(object sender, EventArgs e)
         {
-            char[] signs = { '+', '-', '*', '/', '%' };
-            string[] numbers = textBox1.Text.Split(signs);
-            long number1 = long.Parse(numbers[0]);
-            long number2 = long.Parse(numbers[1]);
-            char sign = '+';
-            foreach (char item in signs)
+            try
             {
-                if(textBox1.Text.IndexOf(item) >= 0)
+                char[] signs = { '+', '-', '*', '/', '%' };
+                string[] numbers = textBox1.Text.Split(signs);
+                long number1 = 0;
+                long number2 = 0;
+                try
                 {
-                    sign = item;
-                    break;
+                    number1 = long.Parse(numbers[0]);
+                    number2 = long.Parse(numbers[1]);
+                }
+                catch (IndexOutOfRangeException m)
+                {
+                    MessageBox.Show(m.Message);
+                }
+                char sign = '+';
+                foreach (char item in signs)
+                {
+                    if (textBox1.Text.IndexOf(item) >= 0)
+                    {
+                        sign = item;
+                        break;
+                    }
+                }
+
+                switch (sign)
+                {
+                    case '+':
+                        textBox1.Text = calculator.Sum(number1, number2).ToString();
+                        break;
+                    case '-':
+                        textBox1.Text = calculator.Subtraction(number1, number2).ToString();
+                        break;
+                    case '*':
+                        textBox1.Text = calculator.Multiplication(number1, number2).ToString();
+                        break;
+                    case '/':
+                        try
+                        {
+                            float f = calculator.Division(number1, number2);
+                            textBox1.Text = f.ToString();
+                        }
+                        catch (DivideByZeroException f)
+                        {
+                            MessageBox.Show(f.Message);
+                        }
+                        break;
+                    case '%':
+                        textBox1.Text = calculator.RemainderOfDivision(number1, number2).ToString();
+                        break;
                 }
             }
-
-            switch(sign)
+            catch(Exception m)
             {
-                case '+':
-                    textBox1.Text = calculator.Sum(number1, number2).ToString();
-                    break;
-                case '-':
-                    textBox1.Text = calculator.Subtraction(number1, number2).ToString();
-                    break;
-                case '*':
-                    textBox1.Text = calculator.Multiplication(number1, number2).ToString();
-                    break;
-                case '/':
-                    textBox1.Text = calculator.Division(number1, number2).ToString();
-                    break;
-                case '%':
-                    textBox1.Text = calculator.RemainderOfDivision(number1, number2).ToString();
-                    break;
+                MessageBox.Show(m.Message);
             }
         }
 

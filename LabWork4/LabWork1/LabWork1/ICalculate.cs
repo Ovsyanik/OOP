@@ -14,7 +14,7 @@ namespace LabWork1
 
         long Multiplication(long number1, long number2);
 
-        long Division(long number1, long number2);
+        float Division(long number1, long number2);
 
         long RemainderOfDivision(long number1, long number2);
     }
