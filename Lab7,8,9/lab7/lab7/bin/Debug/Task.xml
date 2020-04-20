@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfTask xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Task>
+    <Status>false</Status>
+    <Title>345</Title>
+    <Description>345</Description>
+    <TimeOfStart>2020-04-19T00:00:00</TimeOfStart>
+    <TimeOfEnd>2020-05-20T00:00:00</TimeOfEnd>
+    <Priority>Средний</Priority>
+    <Category>Учёба</Category>
+  </Task>
+  <Task>
+    <Status>false</Status>
+    <Title>123</Title>
+    <Description>123</Description>
+    <TimeOfStart>2020-05-18T00:00:00</TimeOfStart>
+    <TimeOfEnd>2020-05-19T00:00:00</TimeOfEnd>
+    <Priority>Низкий</Priority>
+    <Category>Работа</Category>
+  </Task>
+</ArrayOfTask>

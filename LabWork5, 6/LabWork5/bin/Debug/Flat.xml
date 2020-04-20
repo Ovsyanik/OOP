@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfFlat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Flat>
+    <rooms>
+      <Room>
+        <AreaRoom>0</AreaRoom>
+        <CountWindow>0</CountWindow>
+      </Room>
+    </rooms>
+    <address>
+      <State>мацу</State>
+      <Sity>мыва</Sity>
+      <District>ави</District>
+      <Street>высм</Street>
+      <Home>2</Home>
+      <Housing>3</Housing>
+      <NumberFlat>3</NumberFlat>
+    </address>
+    <AreaFlat>60</AreaFlat>
+    <CountRooms>0</CountRooms>
+    <TypeBuilding>Бетон</TypeBuilding>
+    <Floor>2</Floor>
+  </Flat>
+</ArrayOfFlat>

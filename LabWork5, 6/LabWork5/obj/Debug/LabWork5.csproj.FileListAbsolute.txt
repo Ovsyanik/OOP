@@ -1,0 +1,25 @@
+C:\Lab\OOP\LabWork5\LabWork5\bin\Debug\LabWork5.exe.config
+C:\Lab\OOP\LabWork5\LabWork5\bin\Debug\LabWork5.exe
+C:\Lab\OOP\LabWork5\LabWork5\bin\Debug\LabWork5.pdb
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.csprojAssemblyReference.cache
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.Properties.Resources.resources
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.csproj.GenerateResource.cache
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.exe
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.pdb
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.Form1.resources
+C:\Lab\OOP\LabWork5\LabWork5\bin\Debug\Newtonsoft.Json.dll
+C:\Lab\OOP\LabWork5\LabWork5\bin\Debug\Newtonsoft.Json.xml
+C:\Lab\OOP\LabWork5\LabWork5\obj\Debug\LabWork5.csproj.CopyComplete
+C:\Lab\OOP\LabWork5, 6\LabWork5\bin\Debug\LabWork5.exe.config
+C:\Lab\OOP\LabWork5, 6\LabWork5\bin\Debug\LabWork5.exe
+C:\Lab\OOP\LabWork5, 6\LabWork5\bin\Debug\LabWork5.pdb
+C:\Lab\OOP\LabWork5, 6\LabWork5\bin\Debug\Newtonsoft.Json.dll
+C:\Lab\OOP\LabWork5, 6\LabWork5\bin\Debug\Newtonsoft.Json.xml
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.csprojAssemblyReference.cache
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.Form1.resources
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.Properties.Resources.resources
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.csproj.GenerateResource.cache
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.csproj.CopyComplete
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.exe
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.pdb
+C:\Lab\OOP\LabWork5, 6\LabWork5\obj\Debug\LabWork5.SearchForm.resources
